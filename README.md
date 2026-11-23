@@ -57,7 +57,7 @@
 <h3><code>~/system-stats</code></h3>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=tanvirkhannova&cache_seconds=14400&v=2&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&ring_color=39ff14&custom_title=%3E_%20system.stats" alt="stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=tanvirkhannova&cache_seconds=14400&v=3&show_icons=true&hide_border=true&count_private=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&ring_color=39ff14&custom_title=%3E_%20system.stats" alt="stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkhannova&cache_seconds=14400&v=2&layout=compact&hide_border=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&custom_title=%3E_%20languages.loaded" alt="languages" />
 </p>
 

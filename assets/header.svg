@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+<defs>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#39ff14" stop-opacity="0"/><stop offset="1" stop-color="#39ff14" stop-opacity=".35"/></linearGradient>
+<clipPath id="orbclip"><circle cx="185" cy="212" r="134"/></clipPath>
+<clipPath id="type"><rect x="360" y="232" height="30" width="0"><animate attributeName="width" values="0;560;560;0" keyTimes="0;.45;.9;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<style>
+.mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.orb path{stroke:#39ff14;stroke-linecap:round;fill:none;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.gl1{animation:g1 3.2s infinite} .gl2{animation:g2 3.2s infinite}
+@keyframes g1{0%,88%,100%{transform:translate(0,0);opacity:0}90%{transform:translate(-4px,1px);opacity:.8}93%{transform:translate(3px,-2px);opacity:.8}}
+@keyframes g2{0%,88%,100%{transform:translate(0,0);opacity:0}90%{transform:translate(4px,-1px);opacity:.8}93%{transform:translate(-3px,2px);opacity:.8}}
+.sweep{animation:sweep 3.5s linear infinite}
+@keyframes sweep{0%{transform:translateY(-280px)}100%{transform:translateY(20px)}}
+.flick{animation:flick 6s infinite}
+@keyframes flick{0%,96%,100%{opacity:1}97%{opacity:.6}98%{opacity:1}99%{opacity:.75}}
+</style>
+<rect x="1" y="1" width="958" height="398" rx="14" fill="#050805" stroke="#1d3b1d" stroke-width="2"/>
+<rect x="1" y="1" width="958" height="38" rx="14" fill="#0b140b"/>
+<rect x="1" y="26" width="958" height="13" fill="#0b140b"/>
+<line x1="1" y1="39" x2="959" y2="39" stroke="#1d3b1d"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f56"/><circle cx="44" cy="20" r="6" fill="#ffbd2e"/><circle cx="64" cy="20" r="6" fill="#27c93f"/>
+<text x="480.0" y="25" text-anchor="middle" class="mono" font-size="13" fill="#6f9f6f">nova@mainframe: ~/README.md</text>
+<g class="blink"><rect x="868" y="11" width="74" height="18" rx="3" fill="none" stroke="#39ff14"/><text x="905" y="24" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#39ff14">● LIVE</text></g>
+<g class="flick">
+<g clip-path="url(#orbclip)">
+<g class="orb"><path d="M246 102h0" stroke-width="3.8" style="animation-delay:0.00s"/><path d="M210 93h0M219 93h0M228 93h0M219 102h0M228 102h0M237 102h0" stroke-width="5.2" style="animation-delay:0.00s"/><path d="M138 93h0M147 93h0M156 93h0M165 93h0M174 93h0M183 93h0M192 93h0M201 93h0M120 102h0M174 102h0M183 102h0M192 102h0M201 102h0M210 102h0" stroke-width="6.8" style="animation-delay:0.00s"/><path d="M129 102h0M138 102h0M147 102h0M156 102h0M165 102h0" stroke-width="8.2" style="animation-delay:0.00s"/><path d="M273 120h0M273 129h0" stroke-width="2.2" style="animation-delay:0.27s"/><path d="M255 111h0M255 120h0M264 120h0M255 129h0M264 129h0" stroke-width="3.8" style="animation-delay:0.27s"/><path d="M228 111h0M237 111h0M246 111h0M228 120h0M237 120h0M246 120h0M228 129h0M237 129h0M246 129h0" stroke-width="5.2" style="animation-delay:0.27s"/><path d="M183 111h0M192 111h0M201 111h0M210 111h0M219 111h0M183 120h0M192 120h0M201 120h0M210 120h0M219 120h0M183 129h0M192 129h0M201 129h0M210 129h0M219 129h0" stroke-width="6.8" style="animation-delay:0.27s"/><path d="M111 111h0M120 111h0M129 111h0M138 111h0M147 111h0M156 111h0M165 111h0M174 111h0M102 120h0M111 120h0M120 120h0M129 120h0M138 120h0M147 120h0M156 120h0M165 120h0M174 120h0M93 129h0M102 129h0M111 129h0M120 129h0M129 129h0M138 129h0M147 129h0M156 129h0M165 129h0M174 129h0" stroke-width="8.2" style="animation-delay:0.27s"/><path d="M282 138h0M282 147h0M282 156h0" stroke-width="2.2" style="animation-delay:0.54s"/><path d="M255 138h0M264 138h0M273 138h0M255 147h0M264 147h0M273 147h0M255 156h0M264 156h0M273 156h0" stroke-width="3.8" style="animation-delay:0.54s"/><path d="M228 138h0M237 138h0M246 138h0M228 147h0M237 147h0M246 147h0M219 156h0M228 156h0M237 156h0M246 156h0" stroke-width="5.2" style="animation-delay:0.54s"/><path d="M84 138h0M183 138h0M192 138h0M201 138h0M210 138h0M219 138h0M75 147h0M183 147h0M192 147h0M201 147h0M210 147h0M219 147h0M75 156h0M174 156h0M183 156h0M192 156h0M201 156h0M210 156h0" stroke-width="6.8" style="animation-delay:0.54s"/><path d="M93 138h0M102 138h0M111 138h0M120 138h0M129 138h0M138 138h0M147 138h0M156 138h0M165 138h0M174 138h0M84 147h0M93 147h0M102 147h0M111 147h0M120 147h0M129 147h0M138 147h0M147 147h0M156 147h0M165 147h0M174 147h0M84 156h0M93 156h0M102 156h0M111 156h0M120 156h0M129 156h0M138 156h0M147 156h0M156 156h0M165 156h0" stroke-width="8.2" style="animation-delay:0.54s"/><path d="M282 165h0M273 174h0M282 174h0M273 183h0M282 183h0" stroke-width="2.2" style="animation-delay:0.81s"/><path d="M255 165h0M264 165h0M273 165h0M246 174h0M255 174h0M264 174h0M246 183h0M255 183h0M264 183h0" stroke-width="3.8" style="animation-delay:0.81s"/><path d="M219 165h0M228 165h0M237 165h0M246 165h0M210 174h0M219 174h0M228 174h0M237 174h0M210 183h0M219 183h0M228 183h0M237 183h0" stroke-width="5.2" style="animation-delay:0.81s"/><path d="M66 165h0M75 165h0M165 165h0M174 165h0M183 165h0M192 165h0M201 165h0M210 165h0M66 174h0M75 174h0M156 174h0M165 174h0M174 174h0M183 174h0M192 174h0M201 174h0M66 183h0M75 183h0M147 183h0M156 183h0M165 183h0M174 183h0M183 183h0M192 183h0M201 183h0" stroke-width="6.8" style="animation-delay:0.81s"/><path d="M84 165h0M93 165h0M102 165h0M111 165h0M120 165h0M129 165h0M138 165h0M147 165h0M156 165h0M84 174h0M93 174h0M102 174h0M111 174h0M120 174h0M129 174h0M138 174h0M147 174h0M84 183h0M93 183h0M102 183h0M111 183h0M120 183h0M129 183h0M138 183h0" stroke-width="8.2" style="animation-delay:0.81s"/><path d="M273 192h0M282 192h0M264 201h0M273 201h0M264 210h0M273 210h0" stroke-width="2.2" style="animation-delay:1.08s"/><path d="M237 192h0M246 192h0M255 192h0M264 192h0M237 201h0M246 201h0M255 201h0M228 210h0M237 210h0M246 210h0M255 210h0" stroke-width="3.8" style="animation-delay:1.08s"/><path d="M201 192h0M210 192h0M219 192h0M228 192h0M192 201h0M201 201h0M210 201h0M219 201h0M228 201h0M183 210h0M192 210h0M201 210h0M210 210h0M219 210h0" stroke-width="5.2" style="animation-delay:1.08s"/><path d="M66 192h0M75 192h0M84 192h0M93 192h0M120 192h0M129 192h0M138 192h0M147 192h0M156 192h0M165 192h0M174 192h0M183 192h0M192 192h0M66 201h0M75 201h0M84 201h0M93 201h0M102 201h0M111 201h0M120 201h0M129 201h0M138 201h0M147 201h0M156 201h0M165 201h0M174 201h0M183 201h0M66 210h0M75 210h0M84 210h0M93 210h0M102 210h0M111 210h0M120 210h0M129 210h0M138 210h0M147 210h0M156 210h0M165 210h0M174 210h0" stroke-width="6.8" style="animation-delay:1.08s"/><path d="M102 192h0M111 192h0" stroke-width="8.2" style="animation-delay:1.08s"/><path d="M255 219h0M264 219h0M246 228h0M255 228h0M264 228h0M237 237h0M246 237h0M255 237h0" stroke-width="2.2" style="animation-delay:1.35s"/><path d="M219 219h0M228 219h0M237 219h0M246 219h0M210 228h0M219 228h0M228 228h0M237 228h0M201 237h0M210 237h0M219 237h0M228 237h0" stroke-width="3.8" style="animation-delay:1.35s"/><path d="M66 219h0M165 219h0M174 219h0M183 219h0M192 219h0M201 219h0M210 219h0M66 228h0M75 228h0M147 228h0M156 228h0M165 228h0M174 228h0M183 228h0M192 228h0M201 228h0M66 237h0M75 237h0M84 237h0M93 237h0M102 237h0M111 237h0M120 237h0M129 237h0M138 237h0M147 237h0M156 237h0M165 237h0M174 237h0M183 237h0M192 237h0" stroke-width="5.2" style="animation-delay:1.35s"/><path d="M75 219h0M84 219h0M93 219h0M102 219h0M111 219h0M120 219h0M129 219h0M138 219h0M147 219h0M156 219h0M84 228h0M93 228h0M102 228h0M111 228h0M120 228h0M129 228h0M138 228h0" stroke-width="6.8" style="animation-delay:1.35s"/><path d="M228 246h0M237 246h0M246 246h0M219 255h0M228 255h0M237 255h0M210 264h0M219 264h0M228 264h0" stroke-width="2.2" style="animation-delay:1.62s"/><path d="M183 246h0M192 246h0M201 246h0M210 246h0M219 246h0M66 255h0M165 255h0M174 255h0M183 255h0M192 255h0M201 255h0M210 255h0M75 264h0M84 264h0M147 264h0M156 264h0M165 264h0M174 264h0M183 264h0M192 264h0M201 264h0" stroke-width="3.8" style="animation-delay:1.62s"/><path d="M66 246h0M75 246h0M84 246h0M93 246h0M102 246h0M111 246h0M120 246h0M129 246h0M138 246h0M147 246h0M156 246h0M165 246h0M174 246h0M75 255h0M84 255h0M93 255h0M102 255h0M111 255h0M120 255h0M129 255h0M138 255h0M147 255h0M156 255h0M93 264h0M102 264h0M111 264h0M120 264h0M129 264h0M138 264h0" stroke-width="5.2" style="animation-delay:1.62s"/><path d="M192 273h0M201 273h0M210 273h0M219 273h0M84 282h0M174 282h0M183 282h0M192 282h0M201 282h0M93 291h0M102 291h0M111 291h0M138 291h0M147 291h0M156 291h0M165 291h0M174 291h0M183 291h0M192 291h0" stroke-width="2.2" style="animation-delay:1.89s"/><path d="M75 273h0M84 273h0M93 273h0M102 273h0M111 273h0M120 273h0M129 273h0M138 273h0M147 273h0M156 273h0M165 273h0M174 273h0M183 273h0M93 282h0M102 282h0M111 282h0M120 282h0M129 282h0M138 282h0M147 282h0M156 282h0M165 282h0M120 291h0M129 291h0" stroke-width="3.8" style="animation-delay:1.89s"/><path d="M102 300h0M111 300h0M120 300h0M129 300h0M138 300h0M147 300h0M156 300h0M165 300h0" stroke-width="2.2" style="animation-delay:2.16s"/></g>
+<rect class="sweep" x="47" y="84" width="276" height="60" fill="url(#beam)"/>
+</g>
+<circle cx="185" cy="212" r="142" fill="none" stroke="#39ff14" stroke-opacity=".35" stroke-dasharray="3 7">
+<animateTransform attributeName="transform" type="rotate" from="0 185 212" to="360 185 212" dur="30s" repeatCount="indefinite"/></circle>
+<text x="185" y="376" text-anchor="middle" class="mono" font-size="11" fill="#4e7f4e">[ identity.render() ]</text>
+
+<text x="360" y="92" class="mono" font-size="14" fill="#5f8f5f">// whoami</text>
+<g font-weight="800" class="mono" font-size="54">
+<text x="360" y="150" fill="#ff003c" class="gl1">TANVIR KHAN</text>
+<text x="360" y="150" fill="#00e5ff" class="gl2">TANVIR KHAN</text>
+<text x="360" y="150" fill="#39ff14" filter="url(#glow)">TANVIR KHAN</text>
+<text x="360" y="208" fill="#ff003c" class="gl2">NOVA_</text>
+<text x="360" y="208" fill="#00e5ff" class="gl1">NOVA_</text>
+<text x="360" y="208" fill="#39ff14" filter="url(#glow)">NOVA<tspan class="blink">_</tspan></text>
+</g>
+<g clip-path="url(#type)"><text x="360" y="254" class="mono" font-size="18" fill="#b8ffb0">&gt; developer · builder · lifelong hacker-learner</text></g>
+<line x1="360" y1="282" x2="920" y2="282" stroke="#1d3b1d"/>
+<text x="360" y="310" class="mono" font-size="14" fill="#8fbf8f"><tspan fill="#39ff14">▸</tspan> Finland <tspan fill="#3a5f3a">|</tspan> <tspan fill="#39ff14">▸</tspan> UTC+2 <tspan fill="#3a5f3a">|</tspan> <tspan fill="#39ff14">▸</tspan> github.com/tanvirkhannova</text>
+<g class="mono" font-size="12" font-weight="800">
+<rect x="360" y="330" width="120" height="28" fill="#c6ff00"/><text x="420" y="349" text-anchor="middle" fill="#000">ONLINE</text>
+<rect x="492" y="330" width="170" height="28" fill="#c6ff00"/><text x="577" y="349" text-anchor="middle" fill="#000">OPEN TO COLLAB</text>
+<rect x="674" y="330" width="150" height="28" fill="none" stroke="#c6ff00"/><text x="749" y="349" text-anchor="middle" fill="#c6ff00">BUILD MODE: ON</text>
+</g>
+</g>
+<rect x="1" y="40" width="958" height="358" fill="url(#scan)" rx="12"/>
+</svg>

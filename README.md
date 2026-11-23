@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tanvirkhannova/tanvirkhannova/main/assets/header.svg?v=3" alt="Tanvir Khan Nova — terminal header" width="100%" />
+  <img src="https://raw.githubusercontent.com/tanvirkhannova/tanvirkhannova/main/assets/header.svg?v=4" alt="Tanvir Khan Nova — terminal header" width="100%" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tanvirkhannova/tanvirkhannova/main/assets/signal.svg?v=3" alt="ambient matrix signal" width="100%" />
+  <img src="https://raw.githubusercontent.com/tanvirkhannova/tanvirkhannova/main/assets/signal.svg?v=4" alt="ambient matrix signal" width="100%" />
 </p>
 
 <h3><code>~/tech-stack</code></h3>

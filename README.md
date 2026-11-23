@@ -46,6 +46,7 @@
   <a href="https://github.com/tanvirkhannova/50-python-projects"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkhannova&repo=50-python-projects&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&border_color=1d3b1d&v=1" alt="50-python-projects" /></a>
 </p>
 <p align="center">
+  <a href="https://github.com/tanvirkhannova/nova-sec-toolkit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkhannova&repo=nova-sec-toolkit&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&border_color=1d3b1d&v=1" alt="nova-sec-toolkit" /></a>
   <a href="https://github.com/tanvirkhannova/nova-toolkit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkhannova&repo=nova-toolkit&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&border_color=1d3b1d&v=1" alt="nova-toolkit" /></a>
 </p>
 

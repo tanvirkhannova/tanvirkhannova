@@ -57,16 +57,16 @@
 <h3><code>~/system-stats</code></h3>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=tanvirkhannova&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&ring_color=39ff14&custom_title=%3E_%20system.stats" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkhannova&layout=compact&hide_border=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&custom_title=%3E_%20languages.loaded" alt="languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=tanvirkhannova&cache_seconds=14400&v=2&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&icon_color=c6ff00&ring_color=39ff14&custom_title=%3E_%20system.stats" alt="stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkhannova&cache_seconds=14400&v=2&layout=compact&hide_border=true&bg_color=050805&title_color=39ff14&text_color=b8ffb0&custom_title=%3E_%20languages.loaded" alt="languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=tanvirkhannova&hide_border=true&background=050805&ring=39FF14&fire=C6FF00&currStreakNum=39FF14&sideNums=39FF14&currStreakLabel=C6FF00&sideLabels=B8FFB0&dates=5F8F5F&stroke=1D3B1D" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=tanvirkhannova&v=2&hide_border=true&background=050805&ring=39FF14&fire=C6FF00&currStreakNum=39FF14&sideNums=39FF14&currStreakLabel=C6FF00&sideLabels=B8FFB0&dates=5F8F5F&stroke=1D3B1D" alt="streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanvirkhannova&bg_color=050805&color=b8ffb0&line=39ff14&point=c6ff00&area=true&area_color=0f3d14&hide_border=true&custom_title=%3E_%20commit.trace" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanvirkhannova&v=2&bg_color=050805&color=b8ffb0&line=39ff14&point=c6ff00&area=true&area_color=0f3d14&hide_border=true&custom_title=%3E_%20commit.trace" alt="activity graph" />
 </p>
 
 <h3><code>~/snake --eat=contributions</code></h3>
